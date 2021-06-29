@@ -1,0 +1,39 @@
+Topic : Git
+Git Installing
+Git Config:
+ - git config --global user.name "Arush"(to set author name for all repository created in future)
+ - git config --global user.email "your email" (to set email address for all repository)
+ - git config user.name "your name" (to set name for current repositiory)
+ - git config user.email "your email" (to set email for current repository)
+
+Initializing Repository:
+ - git init (to initialize a local git repo)
+
+Staging file:
+ - git add filename
+ - git add -a or git add --all
+
+Checking repo status:
+ - git status
+
+Git commit:
+ - git commit -m "Message"
+
+GitIgnore:
+ - touch .gitignore (name of the inside the which we dont want in our repo)
+
+Git diff:
+ - git diff (changes in trackabke file not commit)
+ - git diff --staged (show difference between current and previous commit)
+
+To untrack a file:
+ - git rm --cached "filename"
+ - git status
+
+To unstage or un modified a file:
+ - git restore --staged "filename"
+
+To go back:(When we edit a file and we found that previous info was good than this so we use this)
+ - git checkout -- "old name of the file"
+ - git checkout -f
+ok
